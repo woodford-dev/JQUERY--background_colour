@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+	font-family: "Open Sans", arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.55;
+	text-align: center;
+	color:#333333;
+	padding:125px 0 0 0;
+	transition: background 0.5s ease;
+}
+
+.blue {
+	background-color: #b8d7e8
+}
+
+.rose {
+	background-color: #eca0a0;
+}
+
+.cubism {
+	background-color: #b094fa;
+}
+
+header {
+	position:fixed;
+	top:0;
+	width:100%;
+	height:125px;
+	z-index: 50;
+	background-color: white;
+	padding:20px 0 20px 0;
+}
+
+nav a {
+
+	color:#333;
+	text-decoration: none;
+	font-weight: 700;
+	padding:0 10px 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.30s ease;
+/*when transitioning more than one thing we type in " all " */
+
+}
+
+nav a:hover {
+
+	color: #5aa2ba;
+	font-weight:300;
+	letter-spacing: 1.150px;
+}
+
+hr {
+	border:solid 0 #000000;
+	border-bottom: solid 1px #000000;
+	width:100px;
+	margin-bottom: 50px;
+}
+
+section.container {
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+
+}
+
+span.date {
+	letter-spacing: 2px;
+	color: RGBA(55, 57, 54, 0.6);
+}
+
+p{
+	margin: 25px 0 50px 0;
+}
+
+blockquote{
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.top-image {
+	margin-bottom:10px;
+}
+
+.columns {
+	position: relative;
+}
+
+span.caption {
+
+	position: absolute;
+	bottom:10px;
+	right:10px;
+	background-color: #ffffff;
+	padding: 5px 10px;
+}
+
+img.opacity {
+	opacity: 0.5;
+	transition:opacity 1s ease;
+}
+
+img.opacity:hover {
+	opacity: 1;
+}
+
+footer {
+	padding:50px 0 50px 0;
+}
+
+footer img {
+
+	width:120px;
+	border-radius: 60px;
+}
+
+img.jump {
+	transition:all 0.25s ease;
+}
+
+img.jump:hover {
+	transform:translatey(-5px);
+	box-shadow: 0 5px 3px rgba(0,0,0, 0.25)
+}
+
+
+img.3d {
+	transition: all 0.25 ease;
+}
+
+img.3d {
+	-webkit-transform: translate3d(20px,20px,30px);
+}
+
+#lightbox {
+	background-color: rgba(255,255,255, 0.75);
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 80;
+	display: none;
+}
+
+#lightbox img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	max-width: 90%;
+}
+
+#distance {
+	position: fixed;
+	right:0;
+	top:0;
+	z-index: 90;
+	background-color:white;
+	padding:5px 10px;
+	font-weight: 700;
+	color:black;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
